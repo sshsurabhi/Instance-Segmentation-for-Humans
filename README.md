@@ -1,4 +1,3 @@
 # Instance Segmentation for Localizing Humans in Monocular Images
--- Human object detection using YOLO 
--- Human pose estimation for the detected object 
--- Applying separate masks to the human poses using edge detection techniques.
+
+This is an implementation of Instance Segmentation using Python 3, PyTorch, and Keras. This model initially detects the Humans in an Image and then it detects the pose of the person using Transfer Learning. Further the algorithm localizes each and every person in the image and then applies the individual segmentation mask to the person using their boundary pixels values.
