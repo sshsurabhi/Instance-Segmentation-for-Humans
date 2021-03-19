@@ -7,27 +7,27 @@ YOLO also localize the person in the image and the pose estimation alsorithm fin
  
 
 ### Note:
-* Included individual "requirement.txt" files to install the dependencies.
-* The pose estimation algorithm which incluuded here is applicapable also for 3D version.
++ Included individual "requirement.txt" files to install the dependencies.
++ The pose estimation algorithm which incluuded here is applicapable also for 3D version.
 
 ### Features:
-* 17 keypoints will be generated for pose estimation which is similar with COCO dataset keypoint format.
-* YOLO V3 algorithm for person detection.
-* Pose 3D is for pose estimation for detected person.
-* This implementation is only for 2D format but the pose estimation folders has an update for 3D version which I worked inmy later stages after my thesis.
-* Included seperate terminal support for quick and easy execution of the individual projects.
++ 17 keypoints will be generated for pose estimation which is similar with COCO dataset keypoint format.
++ YOLO V3 algorithm for person detection.
++ Pose 3D is for pose estimation for detected person.
++ This implementation is only for 2D format but the pose estimation folders has an update for 3D version which I worked inmy later stages after my thesis.
++ Included seperate terminal support for quick and easy execution of the individual projects.
 + Final output gives a boundary box with individual masks. The algorithm will runs as per the numbers of persons lied in the image and gives individual and random masks to the persons.
 ### Usage:
 Training:
-* yolov3_person_det is used to train the model
++ yolov3_person_det is used to train the model
 ```python
         python yolov3_person_det.py -p sample.txt
 ```
-* Instance-Segmentation-for-Humans/3D_Pose/detect is used to train the pose estimation model
++ Instance-Segmentation-for-Humans/3D_Pose/detect is used to train the pose estimation model
 ```python
         python ~/detect.py -p sample.txt
 ```
-* final_ouput_demo file is for acheiving Instance segmentation for an image.
++ final_ouput_demo file is for acheiving Instance segmentation for an image.
 ```python
         python ~/final_output_demo.py -p sample.txt
 ```
