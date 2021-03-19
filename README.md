@@ -27,7 +27,7 @@ Training:
         >python final_output_demo.py
 
 The model outputs the following:
-+ Weight file will have 17 keypoints which is similar to COCO dataset.
++ Weight file will have 17 keypoints for person which is similar to COCO dataset.
 + Model weights in .pth format
 
 ### Note2:
