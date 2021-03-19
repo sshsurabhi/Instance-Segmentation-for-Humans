@@ -20,11 +20,17 @@ YOLO also localize the person in the image and the pose estimation alsorithm fin
 ### Usage:
 Training:
 * yolov3_person_det is used to train the model
-        >python yolov3_person_det.py
+```python
+        python yolov3_person_det.py -p sample.txt
+```
 * Instance-Segmentation-for-Humans/3D_Pose/detect is used to train the pose estimation model
-        >python detect.py
+```python
+        python ~/detect.py -p sample.txt
+```
 * final_ouput_demo file is for acheiving Instance segmentation for an image.
-        >python final_output_demo.py
+```python
+        python ~/final_output_demo.py -p sample.txt
+```
 
 The model outputs the following:
 + Weight file will have 17 keypoints for person which is similar to COCO dataset.
