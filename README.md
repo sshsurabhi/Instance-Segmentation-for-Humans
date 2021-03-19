@@ -25,7 +25,7 @@ Training:
 ```
 + Instance-Segmentation-for-Humans/3D_Pose/detect is used to train the pose estimation model
 ```python
-        python ./3D_Pose/detect/detect.py
+        python ./3D_Pose/detect.py
 ```
 + final_ouput_demo file is for acheiving Instance segmentation for an image.
 ```python
