@@ -21,15 +21,15 @@ YOLO also localize the person in the image and the pose estimation alsorithm fin
 Training:
 + yolov3_person_det is used to train the model
 ```python
-        python yolov3_person_det.py -p sample.txt
+        python ./yolo_Person_det/yolov3_person_det.py
 ```
 + Instance-Segmentation-for-Humans/3D_Pose/detect is used to train the pose estimation model
 ```python
-        python ~/detect.py -p sample.txt
+        python ./3D_Pose/detect/detect.py
 ```
 + final_ouput_demo file is for acheiving Instance segmentation for an image.
 ```python
-        python ~/final_output_demo.py -p sample.txt
+        python ./final_output_demo.py
 ```
 
 The model outputs the following:
