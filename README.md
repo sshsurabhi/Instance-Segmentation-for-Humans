@@ -11,27 +11,27 @@ YOLO also localize the person in the image and the pose estimation alsorithm fin
 * The pose estimation algorithm which incluuded here is applicapable also for 3D version.
 
 ### Features:
-* 177 keypoints will be generated for pose estimation which is similar with COCO dataset keypoint format.
+* 17 keypoints will be generated for pose estimation which is similar with COCO dataset keypoint format.
 * YOLO V3 algorithm for person detection.
 * Pose 3D is for pose estimation for detected person.
 * This implementation is only for 2D format but the pose estimation folders has an update for 3D version which I worked inmy later stages after my thesis.
-
 * Included seperate terminal support for quick and easy execution of the individual projects.
++ Final output gives a boundary box with individual masks. The algorithm will runs as per the numbers of persons lied in the image and gives individual and random masks to the persons.
 ### Usage:
 Training:
 * yolov3_person_det is used to train the model
-        python yolov3_person_det.py
+        > python yolov3_person_det.py
 * Instance-Segmentation-for-Humans/3D_Pose/detect is used to train the pose estimation model
-        python detect.py
+        > python detect.py
 * final_ouput_demo file is for acheiving Instance segmentation for an image.
-        python final_output_demo.py
+        > python final_output_demo.py
 
 The model outputs the following:
-Weight file will have 17 kheckpoints which is similar to COCO dataset.
-Model weights in .pth format
++ Weight file will have 17 kheckpoints which is similar to COCO dataset.
++ Model weights in .pth format
 
 ### Note2:
-+ Will update more information to 
++ Will update more information soon
 
 ## References
 + Implementation adopted from here and is based on the idea of Pose estimation using Hour-Glass method.
