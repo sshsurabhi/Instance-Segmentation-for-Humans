@@ -5,7 +5,8 @@ This is just a re implementation of Yolo v3 object detection algorithm using dar
 COCO weight files were used to train the model, which is having 80 object classes. But, I trained only for person class, which I am further developed for pose estimation using transfer learning using the resulted weight file.
  
 
-![Person detection using yolov3!](C:/Users/surab/OneDrive/Desktop/GIT_Folders/Instance-Segmentation-for-Humans/yolo_Person_det/messi.PNG "Human object detection")
+<p align="center"><img src="messi.png" width="480"\></p>
+
 
 ### Note:
 + This Repository is still in developing mode.
