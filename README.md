@@ -40,5 +40,6 @@ The model outputs the following:
 + Will update more information soon
 
 ## References
++ Disjoint labelling (Image annotation) has been created for my custom dataset using [coco-annotator](https://github.com/jsbroks/coco-annotator/) tool which works on docker backend.
 + Implementation adopted from here and is based on the idea of Pose estimation using Hour-Glass method.
 + COCO dataset is helped alot for my implementation. I took help from [here](https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch)
