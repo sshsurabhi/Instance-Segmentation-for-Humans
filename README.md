@@ -34,10 +34,10 @@ Training:
 
 The model outputs the following:
 + Weight file will have 17 keypoints for person which is similar to COCO dataset.
-+ Model weights in .pth format
++ Model weights in .pth format.
 
 ### Note2:
-+ Will update more information soon
++ Will update more information soon.
 
 ## References
 + Disjoint labelling (Image annotation) has been created for my custom dataset using [coco-annotator](https://github.com/jsbroks/coco-annotator/) tool which works on docker backend.
