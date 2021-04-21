@@ -5,8 +5,7 @@ This is an implementation of Instance Segmentation using Python 3, PyTorch, and 
 Using the transfer learning technique, I have combined these person detection algorithm with pose estimation method to achieve my destination. After detecting the pose I applied some common OpenCV techniques such as "Edge detection", "Gaussian functions" to apply defferent masks to the detected person.
 YOLO also localize the person in the image and the pose estimation alsorithm finds the pose of the detected person. The weight generated in YOLO training is utilized for Hour-Glass method to estimate the pose. Both methods both were rewritten in PyTorch version for experiencing no other complications in implementation. 
  
-<p align="center"><img src="non-occlusion.png" width="480"\></p>
-<p align="center"><img src="occlusion_object.png" width="480"\></p>
+<p align="center"><img src="non-occlusion.png" width="480"\></p> <p align="center"><img src="occlusion_object.png" width="480"\></p>
 
 ### Note:
 + Included individual "requirement.txt" files to install the dependencies.
